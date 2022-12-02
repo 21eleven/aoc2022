@@ -1,8 +1,9 @@
 import           Data.Maybe                     ( fromJust )
 import qualified Day01
+import qualified Day02
 import           System.Environment             ( getArgs )
 
-dispatch = [("Day01", Day01.main)]
+dispatch = [("Day01", Day01.main), ("Day02", Day02.main)]
 
 main :: IO ()
 main = do
