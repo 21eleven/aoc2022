@@ -4,6 +4,7 @@ import qualified Day02
 import qualified Day03
 import qualified Day04
 import qualified Day05
+import qualified Day06
 import           System.Environment             ( getArgs )
 
 dispatch =
@@ -12,6 +13,7 @@ dispatch =
     , ("Day03", Day03.main)
     , ("Day04", Day04.main)
     , ("Day05", Day05.main)
+    , ("Day06", Day06.main)
     ]
 
 main :: IO ()
